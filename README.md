@@ -1,54 +1,135 @@
-🧸 Խաղանք (Khaghank) — Armenian Colors & Numbers for Toddlers
+# 🧸 Խաղանք (Khaghank) — Armenian Colors & Numbers for Toddlers
 
-A simple, colorful web game that helps 2-year-old children learn colors and numbers in Armenian. Built with plain HTML, CSS and JavaScript. No frameworks, no installation, no internet connection needed.
+A simple, colorful web game that helps **2-year-old children learn colors and numbers in Armenian** through play, pictures, and sound.
 
-Features
-🎨 Colors (Գույներ): tap a color to see it full screen with a picture, the Armenian word and its Latin transliteration, and hear it spoken.
-🔢 Numbers (Թվեր): tap a number from 1 to 10 to watch that many objects appear one by one while the game counts aloud in Armenian.
-🔍 Find the color / Find the number (Գտիր գույնը / Գտիր թիվը): the game says a word and the child picks the right answer from 3 choices. A correct answer gives stars and a happy sound. A wrong answer gently shakes the card, so there is no failure.
-Made for toddlers: very large buttons, no reading needed, no timers, no scores.
-Works on phones, tablets and computers. Supports light and dark mode.
-Vocabulary
-Colors		Numbers	
-Կարմիր (karmir)	red	մեկ (mek)	1
-Կապույտ (kapuyt)	blue	երկու (yerku)	2
-Դեղին (deghin)	yellow	երեք (yerek)	3
-Կանաչ (kanach)	green	չորս (chors)	4
-Նարնջագույն (narnjaguyn)	orange	հինգ (hing)	5
-Վարդագույն (vardaguyn)	pink	վեց (vets)	6
-Մանուշակագույն (manushakaguyn)	purple	յոթ (yot)	7
-Սպիտակ (spitak)	white	ութ (ut)	8
-Սև (sev)	black	ինը (iny)	9
-		տասը (tasy)	10
-Getting started
-Download or clone this repository:
-bash
-   git clone https://github.com/user35738/armenian-toddler-game.git
-Open the folder and double-click index.html. It opens in any modern browser (Chrome, Safari, Edge, Firefox).
+🎨 Learn colors · 🔢 Count from 1 to 10 · 🗣️ Hear Armenian words
 
-To host it online for free, use GitHub Pages: go to Settings → Pages, choose the main branch and save.
+Built with **plain HTML, CSS, and JavaScript** — no frameworks, no installation, and no internet connection required.
 
-Project structure
+---
+
+## ✨ Features
+
+### 🎨 Colors (Գույներ)
+
+- Tap a color to see it in a full-screen view.
+- Learn the Armenian word and its Latin transliteration.
+- See a colorful picture or emoji.
+- Hear the word spoken aloud.
+
+### 🔢 Numbers (Թվեր)
+
+- Explore numbers from **1 to 10**.
+- Watch objects appear one by one.
+- Count objects while hearing Armenian number words.
+
+### 🔍 Find the Color (Գտիր գույնը) / Find the Number (Գտիր թիվը)
+
+- Listen to a color or number spoken in Armenian.
+- Choose the correct answer from three options.
+- Earn ⭐ stars and hear a happy sound for correct answers.
+- Incorrect answers gently shake the card — no pressure, no failure!
+
+### 👶 Made for Toddlers
+
+- 🖐️ Very large, easy-to-tap buttons.
+- 🌈 Bright colors and friendly visuals.
+- 🔊 Audio feedback and spoken words.
+- ⏳ No timers or time pressure.
+- 🏆 No scores or stressful competition.
+- 📱 Works on phones, tablets, and computers.
+- 🌙 Supports light and dark modes.
+- 📴 Works offline after the files are downloaded.
+
+---
+
+## 📚 Learning Vocabulary
+
+### 🎨 Colors (Գույներ)
+
+| Armenian | Transliteration | English |
+|:---|:---|:---|
+| 🔴 Կարմիր | karmir | Red |
+| 🔵 Կապույտ | kapuyt | Blue |
+| 🟡 Դեղին | deghin | Yellow |
+| 🟢 Կանաչ | kanach | Green |
+| 🟠 Նարնջագույն | narnjaguyn | Orange |
+| 🩷 Վարդագույն | vardaguyn | Pink |
+| 🟣 Մանուշակագույն | manushakaguyn | Purple |
+| ⚪ Սպիտակ | spitak | White |
+| ⚫ Սև | sev | Black |
+
+### 🔢 Numbers (Թվեր)
+
+| Number | Armenian | Transliteration |
+|:---:|:---|:---|
+| 1 | մեկ | mek |
+| 2 | երկու | yerku |
+| 3 | երեք | yerek |
+| 4 | չորս | chors |
+| 5 | հինգ | hing |
+| 6 | վեց | vets |
+| 7 | յոթ | yot |
+| 8 | ութ | ut |
+| 9 | ինը | iny |
+| 10 | տասը | tasy |
+
+---
+
+## 🚀 Getting Started
+
+### Option 1: Download the Project
+
+1. Open the [GitHub repository](https://github.com/user35738/armenian-toddler-game).
+2. Click **Code → Download ZIP**.
+3. Extract the downloaded ZIP file.
+4. Open the project folder.
+5. Double-click `index.html` to launch the game in your browser.
+
+### Option 2: Clone the Repository
+
+Make sure [Git](https://git-scm.com/) is installed, then run:
+
+```bash
+git clone https://github.com/user35738/armenian-toddler-game.git
+```
+
+Open the downloaded folder and double-click `index.html`.
+
+The game should work in any modern browser, including Chrome, Safari, Edge, and Firefox.
+
+---
+
+## 🌐 Host the Game for Free with GitHub Pages
+
+You can publish the game online for free:
+
+1. Open your repository on GitHub.
+2. Go to **Settings → Pages**.
+3. Under **Build and deployment**, select **Deploy from a branch**.
+4. Choose the `main` branch and the `/ (root)` folder.
+5. Click **Save**.
+6. Wait for GitHub Pages to publish your site.
+
+Your game will be available at:
+
+`https://user35738.github.io/armenian-toddler-game/`
+
+---
+
+## 📁 Project Structure
+
+```text
 armenian-toddler-game/
-├── index.html   # page structure
-├── style.css    # colors, layout and animations
-├── script.js    # game logic, Armenian words and sounds
-└── README.md
-Sound and Armenian voice
+│
+├── index.html    # Page structure
+├── style.css     # Colors, layout, and animations
+├── script.js     # Game logic, Armenian vocabulary, and sounds
+└── README.md     # Project documentation
+```
 
-The game speaks using the browser's built-in text-to-speech (hy-AM). Not every device has an Armenian voice installed. When there is none, the game plays a short beep and shows the big Armenian word, so a parent can read it aloud. To get spoken Armenian, install an Armenian voice in your device's text-to-speech settings.
+---
 
-Customization
+## 🔊 Sound and Armenian Voice
 
-All content is at the top of script.js:
-
-COLORS: add or change colors (Armenian word, transliteration, hex color, emoji).
-NUMS and NUMTR: the Armenian number words and their transliteration.
-THINGS: the emojis used for counting.
-Ideas for the future
-Record real voice clips instead of text-to-speech
-Shapes, animals and the Armenian alphabet
-Numbers above 10
-License
-
-Released under the MIT License. Feel free to use, change and share it.
+The game uses the browser's built-in **Text-to-Speech (TTS)** feature with the Armenian language setting
