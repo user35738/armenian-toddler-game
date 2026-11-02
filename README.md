@@ -2,6 +2,8 @@
 
 A simple, colorful web game that helps **2-year-old children learn colors and numbers in Armenian** through play, pictures, and sound.
 
+![Project Screenshot](GameScreenshot.jpg)
+
 🎨 Learn colors · 🔢 Count from 1 to 10 · 🗣️ Hear Armenian words
 
 Built with **plain HTML, CSS, and JavaScript** — no frameworks, no installation, and no internet connection required.
