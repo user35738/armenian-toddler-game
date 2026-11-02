@@ -2,7 +2,7 @@
 
 A simple, colorful web game that helps **2-year-old children learn colors and numbers in Armenian** through play, pictures, and sound.
 
-![Project Screenshot](<img width="925" height="762" alt="Image" src="https://github.com/user-attachments/assets/aacbf7d3-8109-4f23-9576-9e0e79356098" />)
+<img width="925" height="762" alt="Image" src="https://github.com/user-attachments/assets/aacbf7d3-8109-4f23-9576-9e0e79356098" />
 
 🎨 Learn colors · 🔢 Count from 1 to 10 · 🗣️ Hear Armenian words
 
